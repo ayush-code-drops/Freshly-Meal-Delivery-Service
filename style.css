@@ -1,7 +1,5 @@
 /* ------navbar Css----- */
 body{
-  margin: 0;  
-  padding: 0;
   
    font-family: 'Poppins', sans-serif;
 }
@@ -195,6 +193,175 @@ justify-content: space-around;
 .review-p2{
     text-align: center;
    
+}
+/* Main Menu */
+#tomoto_box{
+    width: 100%;
+    height: 920px;
+    background-image: url('https://wallpaperaccess.com/full/1462901.jpg');
+    padding-top: 50px;
+}
+.menu_detalis{
+    width: 740px;
+    height: 790px;
+    margin: auto;
+    background: white;
+}
+.menu_detalis > h1{
+    font-size: 48px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.menu_detalis > h3 {
+    width: 90%;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+#menu_detalis_img{
+    width: 80%;
+     height: 70%;
+     margin: auto;
+      display: grid;
+      grid-template-areas: 
+                     'first_img second_img third_img'
+                     'four_img  five_img  six_img';
+      grid-gap: 10px;
+}
+#menu_detalis_img div {
+    width: 171px;
+    height: 222px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+#menu_detalis_img div:hover{
+    background: lightgrey;
+}
+#menu_detalis_img div h3{
+ margin-top: 20px;
+ text-align: center;
+}
+.items_menu1{
+    grid-area: first_img;   
+}
+.items_menu2{
+    grid-area: second_img;
+}
+.items_menu3{
+    grid-area: third_img;
+}
+.items_menu4{
+    grid-area: four_img;
+}
+.items_menu5{
+    grid-area: five_img;
+}
+.items_menu6{
+    grid-area: six_img;
+}
+.img_page_menu{
+    width: 171px;
+    border-radius: 10px;
+    width: 171px;
+    height: 121px;
+}
+.view_plan_menu{
+    width: 200px;
+    height: 43px;
+    font-size: 18px;
+     text-align: center; 
+     padding-top: 10px;
+    margin: auto;
+    color: white;
+    background: #3167ff;
+}
+#choose_plan{
+    width: 100%;
+    height: 500px;
+}
+#choose_plan > h1{
+    font-size: 48px;
+    text-align: center;
+    width: 600px;
+    margin: 20px auto;
+    margin-bottom: 20px;
+}
+#choose_plan > h2{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+.choose_plan_price{
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-areas: 'price4 price6 price8 price10 price12';
+    grid-gap: 25px;
+}
+.meal_price{
+    width: 220px;
+    height: 260px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.meals_4{grid-area: price4; }
+.meals_6{ grid-area: price6;}
+.meals_8{grid-area: price8; }
+.meals_8{ grid-area: price10;}
+.meals_12{grid-area: price12; }
+
+.meal_text_h1{
+    margin-top: 50px;
+}
+#choose_btn_price{
+    width: 170px;
+    height: 40px;
+    background: #3167ff;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+/* footer */
+#footer{
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-areas: 'first_footer second_footer third_footer four_footer';
+}
+.first_part_footer{grid-area: first_footer;}
+.second_part_footer{grid-area: second_footer;}
+.third_part_footer{grid-area: third_footer;}
+.four_part_footer{grid-area: four_footer;}
+
+.playstore_img{
+    width: 100px;
+    height: 30px;
+} 
+.social_media{
+    width: 30px;
+    height: 30px;
+}
+.footer_part ul li {
+    margin-top: 20px;
+}
+ 
+.footer_part ul li a {
+    margin-top: 30px;
+    text-decoration: none;
+    color: #666666;
+}
+.footer_part ul li .company_footer{
+    color: black;
+}
+.img_freshly_footer{
+    width: 115px;
+    height: 26px;
+}
+.footer_part ul {
+    width: 200px;
+    list-style-type: none;
 }
 
 
