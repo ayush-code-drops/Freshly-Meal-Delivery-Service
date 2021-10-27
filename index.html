@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Freshly |Meal Delivery Serivce</title>
 
     <!-- -------Icon in Title------ -->
@@ -49,6 +50,16 @@
 <div id="p1sec1-sec2">
 
 </div>
+   </section>
+   <!-- gif -->
+   <section id="gif">
+       <h1 class="what_other_say_text">How it works</h1>
+       <div>
+        <img src="https://cdn.dribbble.com/users/3357896/screenshots/7451146/media/8b3449c854ac5d310f950cc5c07f01b7.gif" class="gif_img"/>
+        <img src="https://cdn.dribbble.com/users/3357896/screenshots/7451146/media/fac875f3c5558c57375a7de67d44066b.gif" alt="Trulli" class="gif_img"/>
+        <img src="https://cdn.dribbble.com/users/3357896/screenshots/7451146/heat-em-up.gif"  class="gif_img"/>
+        <img src="https://cdn.dribbble.com/users/3357896/screenshots/7451146/media/5ff5d81824f0b52c93719d1f58e40d22.gif" class="gif_img"/> 
+       </div>
    </section>
    <div id="tomoto_box">
     <div class="menu_detalis">
@@ -124,38 +135,17 @@
       <h2>Shipping Added At Checkout</h2>
      </div>
 </section>
-   <section id="review-sec">
-       <h1 id="review-h1">
-           What Others Are Saying
-       </h1>
-    <div id="review-box">
-        <div class="review">
-<img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg" alt="">
-<p class="review-p1">Amazingly delicious and convenient!</p>
-<p class="review-p2 lead">I love that I have found freshly and that it allows me to try new things and allows me to eat healthy while remaining affordable!
-</p>
-<h5 class="review-h5">Jessica Wilson</h5>
+<!-- slide Show Cursor -->
+  <section id="slide_show">
+    <h1 class="what_other_say_text">What Others Are Saying</h1>
+    <div id="cursor_slide">
+        <i class="fa fa-angle-left" id="previous" style="font-size:36px"></i>
+        <div id="data_slideShow">
 
-        </div> 
-        <div class="review">
-         <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg" alt="">
-         <p class="review-p1">Convenience, taste, variety</p>
-         <p class="review-p2 lead">I love that I have found freshly and that it allows me to try new things and allows me to eat healthy while remaining affordable!
-         </p>
-         <h5 class="review-h5">Jeffrey</h5>
-               </div> 
-                    <div class="review">
-                     <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg" alt="">
-                     <p class="review-p1">Delicious! So yummy!</p>
-                     <p class="review-p2 lead">I love that I have found freshly and that it allows me to try new things and allows me to eat healthy while remaining affordable!
-                     </p>
-                     <h5 class="review-h5">Kristie Geiges</h5>
-                     
-                                </div> 
-       
-     </div>
-
-</section>
+        </div>
+        <i class="fa fa-angle-right" id="next" style="font-size:36px"></i>
+    </div>
+  </section>
 <<<<<<< HEAD
 <div id="footer"></div>
 =======
@@ -191,6 +181,145 @@
 
 >>>>>>> 9faa161f08e35863bf3c382cc248635e15587e1e
    <script src="script.js" type="module"></script>
+   <script>
+       
+       const nextbtn = document.getElementById("next");
+           nextbtn.addEventListener("click",next_slide);
+
+           const previousbtn = document.getElementById("previous");
+           previousbtn.addEventListener("click",previous_slide);
+
+           const data = document.getElementById("data_slideShow");
+           slide1();
+           
+           function slide1(){
+            const div1 = document.createElement('div');
+           const div2 = document.createElement('div');
+           const div3 = document.createElement('div');
+           div1.className="text1";
+           div2.className="text2";
+           div3.className="text3";
+
+           const img1 = document.createElement('img');
+           img1.src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
+           img1.style.width="200px";
+           img1.style.height="100px";
+
+           const h1 = document.createElement('h3');
+           h1.innerHTML="Freshly has changed our lives!";
+           const p1 = document.createElement('p');
+           p1.innerHTML = " With Freshly, we don’t have to go anywhere or wait for delivery, and our monthly food bill has been cut nearly in half. We love it."
+           const name1 = document.createElement('h4');
+           name1.innerHTML = "Dave";
+           div1.append(img1,h1,p1,name1);
+
+           const img2 = document.createElement('img');
+           img2.src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
+           img2.style.width="200px";
+           img2.style.height="100px";
+
+           const h2 = document.createElement('h2');
+           h2.innerHTML="10 stars! Awesome! Love it! ";
+           const p2 = document.createElement('p');
+           p2.innerHTML = " We love Freshly because it takes two minutes to prepare, the food is great and we don’t have to spend time cleaning up."
+           const name2 = document.createElement('h4');
+           name2.innerHTML = "Sheri";
+           div2.append(img2,h2,p2,name2);
+          
+
+           const img3 = document.createElement('img');
+           img3.src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
+           img3.style.width="200px";
+           img3.style.height="100px";
+
+           const h3 = document.createElement('h2');
+           h3.innerHTML="One of the easiest decisions I've made ";
+           const p3 = document.createElement('p');
+           p3.innerHTML = "With Freshly, I don’t have to think about what I’m going to eat for lunch each day and feel good knowing that I’m eating a healthy meal. I love the convenience!"
+           const name3 = document.createElement('h4');
+           name3.innerHTML = "Cindi";
+           div3.append(img3,h3,p3,name3);
+
+           data.append(div1,div2,div3);
+           }
+
+           
+           function slide2(){
+            const div1 = document.createElement('div');
+           const div2 = document.createElement('div');
+           const div3 = document.createElement('div');
+           div1.className="text1";
+           div2.className="text2";
+           div3.className="text3";
+
+           const img1 = document.createElement('img');
+           img1.src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
+           img1.style.width="200px";
+           img1.style.height="100px";
+
+           const h1 = document.createElement('h3');
+           h1.innerHTML="Amazingly delicious and convenient!";
+           const p1 = document.createElement('p');
+           p1.innerHTML = "I love that I have found freshly and that it allows me to try new things and allows me to eat healthy while remaining affordable!"
+           const name1 = document.createElement('h4');
+           name1.innerHTML = "Jessica Wilson";
+           div1.append(img1,h1,p1,name1);
+
+           const img2 = document.createElement('img');
+           img2.src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
+           img2.style.width="200px";
+           img2.style.height="100px";
+
+           const h2 = document.createElement('h2');
+           h2.innerHTML="Convenience, taste, variety";
+           const p2 = document.createElement('p');
+           p2.innerHTML = "Been a customer for more than a year now, and love it. Customer service is particularly outstanding — whenever there’s been a problem, Freshly staff respond quickly and always rectify the problem."
+           const name2 = document.createElement('h4');
+           name2.innerHTML = "Jeffrey";
+           div2.append(img2,h2,p2,name2);
+          
+
+           const img3 = document.createElement('img');
+           img3.src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
+           img3.style.width="200px";
+           img3.style.height="100px";
+
+           const h3 = document.createElement('h2');
+           h3.innerHTML="Delicious! So yummy!";
+           const p3 = document.createElement('p');
+           p3.innerHTML = "The convenience of a well prepared, healthy, flavorful meal with no shopping, preparing, or clean up is simply amazing. Looking forward to the rest of the week.";
+           const name3 = document.createElement('h4');
+           name3.innerHTML = "Kristie Geiges";
+           div3.append(img3,h3,p3,name3);
+
+           data.append(div1,div2,div3);
+           }
+
+        let count = 1;
+        function next_slide(){
+            data.innerHTML="";
+            if(count % 2 != 0){
+                count++;
+                slide2();
+            }
+            else {
+                count++;
+                slide1();
+            }
+        }
+
+        function previous_slide(){
+            data.innerHTML="";
+            if(count % 2 == 0){
+                count++;
+                slide2();
+            }
+            else {
+                count++;
+                slide1();
+            }
+        }
+   </script>
 <!-- ------Bootstrap Js------ -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>

@@ -125,6 +125,20 @@ margin-top: 10px;
 padding-bottom: 70px;
     }
 
+    /*  gif css */
+    #gif{
+        width: 100%;
+        height: 430px; 
+    }
+    #gif{
+        width: 90%;
+        margin: auto;
+    }
+    .gif_img{
+        width: 320px;
+        height: 300px;
+    }
+
 #p1-section-2{
     background-color: rgb(255,253,247);
 }
@@ -443,6 +457,58 @@ justify-content: space-around;
     background-size: cover;
     background-position: center;
 }
+
+/* slid show Curser */
+ #slide_show{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    background-color: #fffDF7;
+    grid-area: text;
+} 
+#cursor_slide{
+    display: grid;
+grid-template-areas: 'prevbtn text nextbtn';
+}
+#previous , #next {
+    cursor: pointer;
+      margin-top: 60%;
+    width: auto;
+     padding: 16px; 
+    font-weight: bold;
+     font-size: 20px; 
+     user-select: none;
+     color: #0D6EFD;
+    -webkit-user-select: none; 
+    }
+    #previous{
+        grid-area: prevbtn;
+        margin-left: 90%;
+    } 
+    #next{
+        grid-area: nextbtn;
+    }
+    .what_other_say_text{
+        font-size: 48px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    #data_slideShow{
+        width:90%;
+        height:300px;
+        margin:auto;
+        text-align: center;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-areas: 'first second three';
+    }
+    .text1{grid-area:first;}
+    .text2{grid-area:second;}
+    .text3{grid-area:three;}
+    #data_slideShow div{
+        width: 300px;
+
+    }
 
 @media only screen and (max-width:600px) {
     #believe {
