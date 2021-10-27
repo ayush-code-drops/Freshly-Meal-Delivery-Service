@@ -365,5 +365,195 @@ justify-content: space-around;
 }
 
 
+/* section 6 and 7 */
 
+
+#weekly > div:nth-child(1){
+    background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/60928e2ceb6cb2368a43ad07_Freshly_GiftCardRedemption_1732x1416%20(1).jpg");
+    background-size: cover;
+    background-position: center;
+}
+#weekly > div:nth-child(2) {
+    background-color: white;
+    padding: 10px 10px 30px 40px;
+}
+#weekly > div:nth-child(2) > h1 {
+    font-size: 45px;
+    width: 80%;
+}
+#weekly > div:nth-child(2) > div {
+    width: 70%;
+}
+#weekly > div:nth-child(2) > div > input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-color: rgb(219, 219, 219);
+}
+#weekly > div:nth-child(2) > div > button {
+    width: 70%;
+    height: 50px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #3167FF;
+    border: 0;
+}
+#weekly > div:nth-child(2) > div > button:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(51, 75, 212, 0.4);
+}
+#weekly > div:nth-child(2) > p {
+    line-height: 8px;
+}
+
+
+
+#believe {
+    margin: auto;
+}
+#believe > div:nth-child(1) {
+    background-color: white;
+    padding: 30px;
+}
+#believe > div:nth-child(1) > h1 {
+    font-size: 50px;
+}
+#believe > div:nth-child(1) > p {
+    font-size: 17px;
+    line-height: 25px;
+    /* margin-top: -20px; */
+}
+#believe > div:nth-child(1) > button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: #3167FF;
+    border: 0px;
+}
+#believe > div:nth-child(1) > button:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(51, 75, 212, 0.4);
+}
+#believe > div:nth-child(2) {
+    background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/5d9282e1d3e06c159fc47ad5_home_image-small.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width:600px) {
+    #believe {
+        position: relative;
+    }
+    #believe > div:nth-child(2) {
+        width: 100%;
+    }
+    #believe > div:nth-child(1) {
+        position: absolute;
+        left: 10%;
+        top: 10%;
+        width: 70%;
+    }
+    #believe > div:nth-child(2) {
+        width: 100%;
+        height: 650px;
+    }
+
+    #weekly {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    #weekly > div:nth-child(1) {
+        width: 100%;
+        height: 650px;
+    }
+    #weekly > div:nth-child(2) {
+        width: 90%;
+    }
+    #weekly > div:nth-child(2) > p {
+        line-height: 17px;
+    }
+}
+
+@media only screen and (min-width:600px){
+    #believe {
+        position: relative;
+    }
+    #believe > div:nth-child(2) {
+        width: 100%;
+    }
+    #believe > div:nth-child(1) {
+        position: absolute;
+        left: 10%;
+        top: 20%;
+        width: 70%;
+    }
+    #believe > div:nth-child(2) {
+        width: 100%;
+        height: 650px;
+    }
+
+
+    #weekly {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    #weekly > div:nth-child(1) {
+        width: 100%;
+        height: 650px;
+    }
+    #weekly > div:nth-child(2) {
+        width: 90%;
+    }
+    #weekly > div:nth-child(2) > p {
+        line-height: 17px;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    #believe {
+        position: relative;
+        width: 95%;
+        height: 700px;
+    }
+    #believe > div:nth-child(1) {
+        position: absolute;
+        left: 0;
+        top: 25%;
+        width: 730px;
+    }
+    #believe > div:nth-child(2) {
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        width: 830px;
+        height: 700px;
+    }
+
+
+    #weekly {
+        position: relative;
+        width: 95%;
+        height: 700px;
+        margin-top: 130px;
+    }
+    #weekly > div:nth-child(1) {
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        width: 850px;
+        height: 700px;
+    }
+    #weekly > div:nth-child(2) {
+        position: absolute;
+        right: 0;
+        top: 15%;
+        width: 730px;
+    }
+}
 
