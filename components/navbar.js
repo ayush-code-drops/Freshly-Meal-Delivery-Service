@@ -5,7 +5,7 @@
 
 <ul id="navbar-menu">
    <li class="nav-list-items">
-       <a href="" class="nav-links">Plans & Menu</a>
+       <a href="plan_menu.html" class="nav-links">Plans & Menu</a>
    </li> 
    <li class="nav-list-items">
     <a href="" class="nav-links">How It Works</a>
