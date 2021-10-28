@@ -1,0 +1,101 @@
+#chooseDelivery {
+    height: 700px;
+    text-align: center;
+    background-color: #FFFDF7;
+}
+#chooseDelivery > h1 {
+    font-size: 50px;
+}
+#container {
+    height: 450px;
+}
+#scroll {
+    height: 60%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+#scroll > div {
+    position: relative;
+    height: 35px;
+    padding-left: 15px;
+    padding-top: 13px;
+    text-align: left;
+    font-weight: 600;
+    background-color: white;
+    border: 0.1px solid rgb(160, 160, 160);
+}
+#scroll > div:hover {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    border: 0.1px solid black;
+    background-color: #FFFDF7;
+}
+#scroll > div > div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #3167FF;
+}
+
+#firstP {
+    font-size: 14px;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+#secondP {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+#container > button {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background-color: #3167FF;
+    margin-top: 10px;
+}
+#container > button:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(51, 75, 212, 0.4);
+}
+#container > button > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width:600px) {
+    #container {
+        width: 90%;
+        margin: auto;
+        margin-top: 95px;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    #container {
+        width: 50%;
+        margin: auto;
+        margin-top: 95px;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    #container {
+        width: 28%;
+        margin: auto;
+        margin-top: 95px;
+    }
+}
