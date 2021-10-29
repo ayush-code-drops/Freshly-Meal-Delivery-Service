@@ -1,0 +1,331 @@
+body{
+    font-family: 'Poppins', sans-serif;
+ }
+ #navbar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgb(255,253,247);
+     font-family: 'Poppins', sans-serif;
+     position: sticky;
+     top: 0;
+     padding-top: 15px;
+     padding-left: 15px;
+     padding-right: 15px;
+     padding-bottom: 10px;
+     z-index: 2;
+ }
+ #navbar-menu{
+     display: flex;
+     margin-top: 10px;
+ }
+ 
+ #navbar li{
+     list-style-type:none;
+ }
+ 
+ #navbar a{
+     text-decoration: none;
+     color: #303030;
+     padding: 9px;
+     font-weight: 700;
+     font-size: 14px;
+ }
+ 
+ #navbar a:hover{
+     color: #0D6EFD;
+ }
+ .logo-img{
+     width: 104px;
+     height: 24px;
+ }
+ 
+ #navbar-sec3{
+     display: flex;
+     align-items: center;
+ }
+ 
+ #navbar-sec3 button {
+     width: 100px;
+     font-size: 15px;
+     height: 30px;
+     margin-left: 10px;
+     background: #0D6EFD;
+     border: none;
+ }
+ #navbar-sec3 button a{
+     color: white;
+ }
+
+ /* first Seccion */
+ #first_gift{
+     width: 100%;
+     height: 760px;
+     display: grid;
+     grid-template-areas: 'right left';
+ }
+ .right_part{
+     margin-left: 10%;
+     margin-top: 20%;
+     grid-area: right;
+ }
+ .left_part{
+     grid-area: left;
+ }
+ .img_book{
+     width: 80%;
+     margin-left: 20%;
+     height: 730px;
+ }
+ .redem_box{
+     display: grid;
+     width: 70%;
+     grid-template-columns: auto auto;
+ }
+ .give_freshly{
+     width: 150px;
+     height: 60px;
+     font-size: 20px;
+     background-color: #3167ff;
+     color: white;
+     border: none;
+ }
+ .redem_gift{
+     background-color: white;
+     width: 150px;
+     height: 60px;
+     font-size: 20px;
+     border: 1px solid #3167ff;
+     color: #3167ff;
+ }
+ .right_part h1{
+     font-size: 48px;
+ }
+ .right_part h4{
+     color: #333333;
+ }
+   /*  gif css */
+   #gif{
+    width: 100%;
+    height: 430px; 
+    background-color: #fffDF7;
+}
+#gif{
+    width: 85%;
+    margin: auto;
+}
+.gif_img{
+    width: 400px;
+    height: 300px;
+}
+#charity{
+    width: 100%;
+    height: 600px;
+    
+}
+.what_other_say_text{
+    text-align: center;
+    font-size: 45px;
+}
+#charity > p{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.charity_box{
+    width: 80%;
+    margin: 40px auto;
+    display: grid;
+    text-align: center;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+}
+.img_baby{
+    width: 300px;
+    height: 300px;
+}
+#tomoto_box{
+    width: 100%;
+    height: 920px;
+    background-image: url('https://assets-global.website-files.com/5d03b4e130118314af624b20/5d94e04ff2b857688f7138b6_home_image2.jpg');
+    padding-top: 50px;
+}
+.menu_detalis{
+    width: 740px;
+    height: 790px;
+    margin: auto;
+    background: white;
+}
+.menu_detalis > h1{
+    font-size: 43px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.menu_detalis > h3 {
+    width: 90%;
+    margin-top: 10px;
+    padding-left: 30px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+#menu_detalis_img{
+    width: 80%;
+     height: 70%;
+     margin: auto;
+      display: grid;
+      grid-template-areas: 
+                     'first_img second_img third_img'
+                     'four_img  five_img  six_img';
+      grid-gap: 10px;
+}
+#menu_detalis_img div {
+    width: 171px;
+    height: 222px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+#menu_detalis_img div:hover{
+    background: rgb(247, 247, 247);
+    cursor: pointer;
+}
+#menu_detalis_img div h3{
+ margin-top: 20px;
+ margin-left: 15px;
+ text-align: left;
+ font-size: 17px;
+}
+.items_menu1{
+    grid-area: first_img;   
+}
+.items_menu2{
+    grid-area: second_img;
+}
+.items_menu3{
+    grid-area: third_img;
+}
+.items_menu4{
+    grid-area: four_img;
+}
+.items_menu5{
+    grid-area: five_img;
+}
+.items_menu6{
+    grid-area: six_img;
+}
+.img_page_menu{
+    width: 171px;
+    border-radius: 10px;
+    width: 171px;
+    height: 121px;
+}
+.view_plan_menu{
+    width: 200px;
+    height: 43px;
+    font-size: 18px;
+     text-align: center; 
+     padding-top: 10px;
+    margin: auto;
+    color: white;
+    background: #3167ff;
+}
+/* accodian */
+ /* accordian */
+ #accordion{
+    width: 100%;
+}
+#accordion  .contentBx{
+    width: 1000px;
+    margin: 20px auto;
+  position: relative;
+  /* margin: 10px 20px;  */
+}
+#accordion .contentBx .label{
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+#accordion  .contentBx .label::before{
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+}
+#accordion  .contentBx .content{
+    position: relative;
+    background: #fff;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+#accordion .contentBx.active .content{
+    height: 170px;
+    padding: 10px;
+}
+.common_text{
+    font-size: 48px;
+    text-align: center;
+}
+.line_hr{
+    width: 1000px;
+}
+/* footer */
+#footer{
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-areas: 'first_footer second_footer third_footer four_footer';
+}
+#footer > div {
+    margin: 0 30px;
+}
+.first_part_footer{grid-area: first_footer;}
+.second_part_footer{grid-area: second_footer;}
+.third_part_footer{grid-area: third_footer;}
+.four_part_footer{grid-area: four_footer;}
+
+.playstore_img{
+    width: 100px;
+    height: 30px;
+} 
+.social_media{
+    width: 30px;
+    height: 30px;
+}
+.footer_part ul li {
+    margin-top: 20px;
+}
+.footer_part ul li img {
+    width: 150px;
+    height: 45px;
+}
+ 
+.footer_part ul li a {
+    margin-top: 30px;
+    text-decoration: none;
+    color: #666666;
+}
+.footer_part ul li:nth-child(1) a img {
+    width: 100px;
+}
+.footer_part ul li a img {
+    width: 20px;
+    height: 20px;
+}
+.footer_part ul li .company_footer{
+    color: black;
+}
+.img_freshly_footer{
+    width: 115px;
+    height: 26px;
+}
+.footer_part ul {
+    width: 200px;
+    list-style-type: none;
+}
+
