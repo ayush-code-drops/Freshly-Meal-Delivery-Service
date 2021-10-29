@@ -1,0 +1,183 @@
+/* nav  */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#nav{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    background-color: white;
+}
+#nav div {
+    display: flex;
+}
+.logo-img{
+    width: 104px;
+    height: 24px;
+}
+.nav_detalis  {
+    margin-left: 350px;
+    margin-right: 240px;
+    gap: 20px;
+    color: #d0d0d0;
+}
+.nav_choose_plan{
+    display: none;
+}
+.fa{
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 24px;
+}
+.question_mark{
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+#chooseDelivery {
+    height: 700px;
+    text-align: center;
+    background-color: #FFFDF7;
+}
+#chooseDelivery > h1 {
+    font-size: 50px;
+}
+#container {
+    height: 450px;
+}
+#scroll {
+    height: 60%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+#scroll > div {
+    position: relative;
+    height: 35px;
+    padding-left: 15px;
+    padding-top: 13px;
+    text-align: left;
+    font-weight: 600;
+    background-color: white;
+    border: 0.1px solid rgb(160, 160, 160);
+}
+#scroll > div:hover {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    border: 0.1px solid black;
+    background-color: #FFFDF7;
+}
+#scroll > div > div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #3167FF;
+}
+
+#firstP {
+    font-size: 14px;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+#secondP {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+#container > button {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background-color: #3167FF;
+    margin-top: 10px;
+}
+#container > button:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(51, 75, 212, 0.4);
+}
+#container > button > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+ /* Accordian Css */
+ #accordion{
+    width: 100%;
+}
+#accordion  .contentBx{
+    width: 1000px;
+    margin: 20px auto;
+  position: relative;
+  /* margin: 10px 20px;  */
+}
+#accordion .contentBx .label{
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+#accordion  .contentBx .label::before{
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+}
+#accordion  .contentBx .content{
+    position: relative;
+    background: #fff;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+#accordion .contentBx.active .content{
+    height: 170px;
+    padding: 10px;
+}
+.common_text{
+    font-size: 48px;
+    text-align: center;
+}
+.line_hr{
+    width: 1000px;
+}
+
+@media only screen and (max-width:600px) {
+    #container {
+        width: 90%;
+        margin: auto;
+        margin-top: 95px;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    #container {
+        width: 50%;
+        margin: auto;
+        margin-top: 95px;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    #container {
+        width: 28%;
+        margin: auto;
+        margin-top: 95px;
+    }
+}
