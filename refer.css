@@ -1,0 +1,143 @@
+.popup .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+    display: none;
+}
+.popup .content{
+    width: 850px;
+    height: 700px;
+    position: absolute;
+    margin-top: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%) scale(0);
+    background: #fff;
+    z-index: 2;
+    text-align: center;
+    box-sizing: border-box;
+}
+.popup .close-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background:  #02514E;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+   
+}
+#box{
+    display: grid;
+    grid-template-areas: 'right left';
+}
+
+.popup.active .overlay {
+    display: block;
+}
+
+.popup.active .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50% , -50%) scale(1);
+}
+
+.img_plate{
+    width: 300px;
+    height: 300px;
+}
+#right-part{grid-area: right; width: 400px;}
+#left-part{grid-area: left; width: 400px;text-align: center;color: #02514E;}
+
+.refer_earn{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #02514E;
+    color: wheat;
+    font-size: 34px;
+}
+#email{
+    width: 350px;
+    outline: none;
+    border: 1px solid black;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 30px;
+}
+#social_media{
+    width: 350px;
+    height: 250px;
+    display: grid;
+    grid-template-areas: 'email1 facebook'
+                          'messager twitter'
+                           'whatsapp pinterest';
+}
+.social_box{
+    width: 170px;
+    height: 35px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 24px;
+    color: white;
+    padding-top: 18px;
+    margin-bottom: 0px;
+}
+.img_social{
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.email_box{
+ background: #7cb884;
+ grid-area: email1;
+}
+.facebook_box{
+    background: #5f7ec1;
+    grid-area: facebook;
+}
+.messanger_box{
+    background: #4da9ff;
+    grid-area: messager;
+}
+.twitter_box{
+    background: #8dc2ff;
+    grid-area: twitter;
+}
+.whatsapp_box{
+    background: green;
+    grid-area: whatsapp;
+}
+.pinterest_box{
+    background: red;
+    grid-area: pinterest;
+}
+.rewarding{
+    width: 300px;
+    height: 260px;
+    margin: auto;
+    background: #d5f7e6;
+}
+.send_refer_img{
+    width: 50px;
+    height: 50px;
+}
+
+.friends{
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+.just_for{
+margin-top: 0px;
+}
+

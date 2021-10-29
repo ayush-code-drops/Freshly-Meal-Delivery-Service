@@ -43,7 +43,7 @@
     <input type="email" class="d-block" placeholder="freshly@freshly.com">
     <label for="ZIP Code" class="d-block">ZIP Code</label>
     <input type="number" placeholder="1111">
-    <input type="submit" class="btn btn-primary btn-md" value="Explore Meals">
+    <input type="submit" class="btn btn-primary btn-md" value="Explore Meals" id="explore_meal">
 </form>
 
 <p>By continuing, you agree to our <a href="">Terms</a> and <a href="">Privacy Policy</a> & will receive emails from Freshly.</p>
@@ -93,7 +93,7 @@
            </div>
 
          </div>
-         <div class="view_plan_menu">View Plans & Menu</div>
+         <div class="view_plan_menu" id="view_plan" >View Plans & Menu</div>
        </div>
 </div>
 
@@ -160,7 +160,7 @@
         <div>
             <h1>We believe eating right should be easy for everyone.</h1>
             <p>Each Freshly meal is perfectly sized for 1 person to enjoy at 1 sitting. Our fully-prepared meals are delivered fresh, and ready to eat in 3 minutes.</p>
-            <button id="learnMore">Learn More</button>
+            <button id="learnMore" ><a href="whyFreshly.html">Learn More</a></button>
         </div>
         <div></div>
     </div>
@@ -172,19 +172,31 @@
             <div>
                 <input type="email" placeholder="freshly@freshly.com" id="email">
                 <input type="tel" placeholder="zip" id="zip">
-                <button id="getStarted">Get Started!</button>
+                <button id="getStarted"><a href="chooseplan.html">Get Started!</a></button>
             </div>
-            <p>Already have an account? <a href="...">Log in</a></p>
+            <p>Already have an account? <a >Log in</a></p>
             <p>By continuing, you agree to our <a href="...">Terms</a> and <a href="...">Privacy Policy.</a> & will receive emails from Freshly.</p>
         </div>
     </div>
 </section>
 
 >>>>>>> 9faa161f08e35863bf3c382cc248635e15587e1e
-<div id="footer"></div>   
+   <div id="footer"></div>
 <script src="script.js" type="module"></script>
    <script>
+       // sign 
+       function sign(){
+      location.replace("sign.html");
+       }
        
+       const view_plan = document.getElementById('view_plan');
+       view_plan.addEventListener('click',explore);
+    //    const explore_meal = document.getElementById("explore_meal");
+    //    explore_meal.addEventListener('click',explore);
+
+       function explore(){
+           location.replace('plan_menu.html');
+       }
          const nextbtn = document.getElementById("next");
            nextbtn.addEventListener("click",next_slide);
 

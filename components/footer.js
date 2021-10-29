@@ -1,5 +1,5 @@
-export function Footer(){
-    return`<div id="footer">
+export function Footer() {
+    return `<div id="footer">
     <div class="first_part_footer footer_part">
         <ul>
             <li><a href="#"><img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg" class="img_freshly_footer"/></a></li>

@@ -1,0 +1,334 @@
+#mainHead {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+#heat {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: #FFFDF7;
+    padding: 40px 0 30px;
+}
+#heat > h1 {
+    font-size: 40px;
+}
+#heat > p {
+    margin-top: -15px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+
+#our {
+    margin: auto;
+    text-align: center;
+}
+#our > h1 {
+    font-size: 35px;
+}
+#our > p {
+    margin-top: -10px;
+}
+#card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 130px 0 20px;
+}
+#card > div > div:nth-child(1) > img {
+    height: 100%;
+}
+#card > div > div:nth-child(2) {
+    padding: 20px;
+}
+#card > div > div:nth-child(2) > p:nth-child(1) {
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+#our > button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: 0;
+    background-color: #3167FF;
+}
+#our > button > a {
+    text-decoration: none;
+    color: white;
+}
+#our > button:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(51, 75, 212, 0.4);
+}
+
+
+#options, #app {
+    justify-content: center;
+    margin: auto;
+}
+#options > div, #app > div {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0;
+}
+#options > div > div:nth-child(2), #app > div > div:nth-child(2) {
+    padding: 70px 0 0 40px;
+}
+#options > div > div:nth-child(2) > h2, #app > div > div:nth-child(2) > h2 {
+    font-size: 28px;
+    margin-bottom: -10px;
+}
+#options > div > div:nth-child(2) > p, #app > div > div:nth-child(2) > p {
+    font-size: 15px;
+    margin-top: 13px;
+}
+#options > div:nth-child(1) > div:nth-child(1) {
+    background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/5ec28f01f830d90b04622505_image%402x-2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#options > div:nth-child(2) > div:nth-child(1) {
+    background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/5ec3f1c2ef738d8b21b284c9_lp-stealth-health-pesto-zoodles%402x.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#options > div:nth-child(3) > div:nth-child(1) {
+    background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/6155ec8c50610d16a9df5045_Purely_Plant_Unwrapped_Burrito%20(1).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#banner {
+    width: 100%;
+    height: 290px;
+    margin-top: 70px;
+}
+#banner > div {
+    background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/5ec2ac1d2f98b30604f1f132_20-spring-1-group-test-qa-1455-72-dpi.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+#banner > div > div {
+    position: relative;
+    height: 60%;
+}
+#banner > div > div > button {
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    background-color: #3167FF;
+    border: 0;
+    width: 250px;
+    height: 50px;
+}
+#banner > div > div > button > a {
+    text-decoration: none;
+    color: white;
+}
+
+#how, #why {
+    margin-top: 80px;
+    text-align: center;
+    background-color: #FFFDF7;
+    padding-bottom: 30px;
+}
+#how > h2, #why > h2 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+#how > p, #why > p {
+    font-size: 16px;
+    width: 45%;
+    margin: auto;
+}
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    margin: 70px auto 0;
+}
+.horizontal p {
+    font-size: 20px;
+}
+.horizontal > div {
+    width: 30%;
+    margin: 0 3%;
+}
+.horizontal > div > img {
+    width: 100%;
+}
+#how > button, #why > button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: 0;
+    background-color: #3167FF;
+}
+#how > button:hover, #why > button:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(51, 75, 212, 0.4);
+}
+#how > button > a, #why > button > a {
+    text-decoration: none;
+    color: white;
+}
+
+#app > div:nth-child(1) > div:nth-child(1) {
+    background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/5ec28f02de582471478ba872_image%402x-4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#app > div:nth-child(2) > div:nth-child(1) {
+    background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/5ec28f03e90aa105b236a927_image%402x-5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#ready {
+    text-align: center;
+    margin: 70px 0;
+}
+#ready > h1 {
+    font-size: 35px;
+}
+#ready > button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    border: 0;
+    background-color: #3167FF;
+}
+#ready > button:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(51, 75, 212, 0.4);
+}
+#ready > button > a {
+    text-decoration: none;
+    color: white;
+}
+
+
+@media only screen and (max-width:600px){
+    #heat > iframe {
+        width: 450px;
+        height: 260px;
+    }
+    #card > div {
+        width: 250px;
+    }
+    #card > div > div:nth-child(1) {
+        height: 90px;
+    }
+
+    #options, #app {
+        width: 95%;
+    }
+    #options > div > div:nth-child(1), #app > div > div:nth-child(1) {
+        width: 50%;
+        height: 220px;
+    }
+    #options > div > div:nth-child(2), #app > div > div:nth-child(2) {
+        width: 50%;
+        padding: 0 0 0 20px;
+    }
+
+    #banner > div > div > button {
+        left: 25%;
+    }
+
+    #how > p, #why > p {
+        width: 90%;
+    }
+
+    .horizontal {
+        width: 100%;
+        height: 270px;
+    }
+}
+
+
+@media only screen and (min-width:600px){
+    #heat > iframe {
+        width: 550px;
+        height: 310px;
+    }
+    #card > div {
+        width: 300px;
+    }
+    #card > div > div:nth-child(1) {
+        height: 110px;
+    }
+
+    #options, #app {
+        width: 90%;
+    }
+    #options > div > div:nth-child(1), #app > div > div:nth-child(1) {
+        width: 50%;
+        height: 270px;
+    }
+    #options > div > div:nth-child(2), #app > div > div:nth-child(2) {
+        width: 50%;
+        padding: 55px 0 0 30px;
+    }
+
+    #banner > div > div > button {
+        left: 38%;
+    }
+    #banner > div > div > button:hover {
+        cursor: pointer;
+        box-shadow: 0 5px 15px rgba(51, 75, 212, 0.4);
+    }
+
+    #how > p, #why > p {
+        width: 70%;
+    }
+
+    .horizontal {
+        width: 100%;
+        height: 280px;
+    }
+}
+
+
+@media only screen and (min-width:1000px){
+    #heat > iframe {
+        width: 950px;
+        height: 530px;
+    }
+
+    #card > div {
+        width: 400px;
+    }
+    #card > div > div:nth-child(1) {
+        height: 150px;
+    }
+
+    
+    #options, #app {
+        width: 70%;
+    }
+    #options > div > div:nth-child(1), #app > div > div:nth-child(1) {
+        width: 50%;
+        height: 300px;
+    }
+    #options > div > div:nth-child(2), #app > div > div:nth-child(2) {
+        width: 50%;
+        padding: 80px 0 0 30px;
+    }
+
+    #banner > div > div > button {
+        left: 42%;
+    }
+
+    #how > p, #why > p {
+        width: 55%;
+    }
+
+    .horizontal {
+        width: 900px;
+        height: 300px;
+    }
+}
