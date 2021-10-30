@@ -338,7 +338,7 @@ justify-content: space-around;
 .meals_4{grid-area: price4; }
 .meals_6{ grid-area: price6;}
 .meals_8{grid-area: price8; }
-.meals_8{ grid-area: price10;}
+.meals_10{ grid-area: price10;}
 .meals_12{grid-area: price12; }
 
 .meal_text_h1{

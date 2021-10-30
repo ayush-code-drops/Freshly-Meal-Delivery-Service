@@ -1,0 +1,214 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+background-color: rgb(255,253,247);
+font-family: 'Poppins', sans-serif;
+position: sticky;
+top: 0;
+padding-top: 15px;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 10px;
+}
+#navbar-menu{
+    display: flex;
+  margin-top: 10px;
+}
+
+#navbar li{
+list-style-type:none;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #303030;
+    padding: 9px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#navbar a:hover{
+    color: #0D6EFD;
+}
+.logo-img{
+    width: 104px;
+    height: 24px;
+}
+
+#navbar-sec3{
+    display: flex;
+    align-items: center;
+}
+
+#navbar-sec3 button{
+    height: 33px;
+    font: 15px;
+margin-left: 10px;
+}
+/* Plan and menu */
+#choose_plan{
+    width: 100%;
+    height: 550px;
+    background-color: #fffDF7;
+}
+.text48{
+    font-size: 48px;
+    padding-top: 70px;
+}
+.text_center{
+    text-align: center;
+}
+.img_choose{
+    width: 200px;
+    height: 150px;
+}
+.img_choose1{
+    width: 100px;
+    height: 140px;
+}
+ .img_meal_box {
+    width: 50%;
+    margin: auto;
+  display: flex;
+}
+
+/* Price Meal */
+#choose_plan{
+    width: 100%;
+    height: 440px;
+}
+.choose_plan_price{
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-areas: 'price4 price6 price8 price10 price12';
+    grid-gap: 25px;
+}
+.meal_price{
+    width: 220px;
+    height: 260px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.meals_4{grid-area: price4; }
+.meals_6{ grid-area: price6;}
+.meals_8{grid-area: price8; }
+.meals_8{ grid-area: price10;}
+.meals_12{grid-area: price12; }
+
+.meal_text_h1{
+    margin-top: 50px;
+}
+#choose_btn_price{
+    width: 170px;
+    height: 40px;
+    background: #3167ff;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+/* Api of Food */
+#api_food{
+    width: 100%;
+    margin: auto;
+    height: 1600px;
+}
+.menu_category_text{
+    margin-left: 40%;
+}
+#api_food > div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 30px;
+}
+/* Accordian Css */
+#accordion{
+    width: 100%;
+}
+#accordion  .contentBx{
+    width: 1000px;
+    margin: 20px auto;
+  position: relative;
+  /* margin: 10px 20px;  */
+}
+#accordion .contentBx .label{
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+    color: #3167ff;
+    font-size: 20px;
+}
+#accordion  .contentBx .label::before{
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+}
+#accordion  .contentBx .content{
+    position: relative;
+    background: #fff;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+#accordion .contentBx.active .content{
+    height: 170px;
+    padding: 10px;
+}
+.common_text{
+    font-size: 48px;
+    text-align: center;
+}
+.line_hr{
+    width: 1000px;
+}
+.top_margin_question{
+    padding-top: 40px;
+}
+
+/* footer */
+#footer{
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-areas: 'first_footer second_footer third_footer four_footer';
+}
+.first_part_footer{grid-area: first_footer;}
+.second_part_footer{grid-area: second_footer;}
+.third_part_footer{grid-area: third_footer;}
+.four_part_footer{grid-area: four_footer;}
+
+.playstore_img{
+    width: 100px;
+    height: 30px;
+} 
+.social_media{
+    width: 30px;
+    height: 30px;
+}
+.footer_part ul li {
+    margin-top: 20px;
+}
+ 
+.footer_part ul li a {
+    margin-top: 30px;
+    text-decoration: none;
+    color: #666666;
+}
+.footer_part ul li .company_footer{
+    color: black;
+}
+.img_freshly_footer{
+    width: 115px;
+    height: 26px;
+}
+.footer_part ul {
+    width: 200px;
+    list-style-type: none;
+}
+   

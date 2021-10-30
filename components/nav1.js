@@ -1,6 +1,8 @@
 export function Navbar(){
     return ` <div>
-    <h3>Freshly</h3>
+    <h3> <a href = "index.html">
+    <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg"  class="logo-img">
+    </a></h3>
 </div>
 <h1 class="nav_choose_plan">Choose A Plan</h1>
 <div class="nav_detalis" >
