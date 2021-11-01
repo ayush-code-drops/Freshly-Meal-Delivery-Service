@@ -52,6 +52,22 @@ body{
     font: 15px;
     margin-left: 10px;
 }
+.hamber{
+display: none;
+}
+ .img_hamber{
+     width: 30px;
+     height: 30px;
+ }
+ #hamber_page{
+    width: 650px;
+    height: 700px;
+    display: none;
+ }
+
+ /* .hamber_div{
+     
+ } */
 
 /* -----Section-1------ */
 
@@ -362,7 +378,58 @@ justify-content: space-around;
     color: white;
     margin-top: 20px;
 }
+/* slid show Curser */
 
+#slide_show{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    background-color: #fffDF7;
+    grid-area: text;
+} 
+#cursor_slide{
+    display: grid;
+    grid-template-areas: 'prevbtn text nextbtn';
+}
+#previous , #next {
+    cursor: pointer;
+    margin-top: 60%;
+    width: auto;
+    padding: 16px; 
+    font-weight: bold;
+    font-size: 20px; 
+    user-select: none;
+    color: #0D6EFD;
+    -webkit-user-select: none; 
+    }
+    #previous{
+        grid-area: prevbtn;
+        margin-left: 90%;
+} 
+    #next{
+        grid-area: nextbtn;
+}
+    .what_other_say_text{
+        font-size: 48px;
+        text-align: center;
+        padding-top: 30px;
+}
+    #data_slideShow{
+        width:90%;
+        height:300px;
+        margin:auto;
+        text-align: center;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-areas: 'first second three';
+}
+    .text1{grid-area:first;}
+    .text2{grid-area:second;}
+    .text3{grid-area:three;}
+
+    #data_slideShow div {
+    width: 300px;
+}
 
 /* footer */
 
@@ -520,6 +587,98 @@ justify-content: space-around;
 
 
 @media only screen and (max-width:600px) {
+      .hamber{
+        display: block;
+      }
+      #hamber_ul{
+          text-align: center;
+
+      }
+      #hamber_ul li{
+          margin: 15px;
+      }
+        #navbar.active #hamber_page{
+            display: block;
+        }
+        #navbar.active #navbar-logo{
+            display: none;
+        }
+        #navbar.active .hamber{
+            display: none;
+        }
+        #across{
+            margin-left: 90%;
+            font-size: 20px;
+        }
+        .img_freshly_fit{
+            width: 150px;
+            height: 50px;
+            background-color: skyblue;
+        }
+        #navbar-menu{
+            display: none;
+        }
+        #navbar-sec3{
+            display: none;
+        }
+        #gif{
+            height: 1300px;
+        }
+        #tomoto_box{
+            width: 550px;
+            height: 1100px;
+            background-image: none;
+        }
+        .menu_detalis{
+            height: 1100px;
+        }
+        #menu_detalis_img{
+            margin-left: 10%;
+            width: 60%;
+              grid-template-areas: 
+                             'first_img second_img'
+                             ' third_img four_img'
+                             'five_img  six_img';
+        }
+        .menu_detalis > h3{
+            width: 70%;
+            padding-left: 15px;
+            font-size: 15px;
+        }
+        .view_plan_menu{
+            margin-left: 20%;
+        }
+        #choose_plan{
+            height: 1000px;
+        }
+        #choose_plan > h1{
+            width: 400px;
+        }
+        #choose_plan > h2{
+            width: 400px;
+            margin-left: 10%;
+            font-size: 15px;
+        }
+        .choose_plan_price{
+            grid-template-areas: 
+                                 'price4 price6'
+                                 ' price8 price10'
+                                 ' price12 price12';
+            grid-gap: 25px;
+        }
+        #slide_show{
+          display: none;
+        }
+        #footer{
+            width: 600px;
+        }
+        .footer_part ul{
+            width: 100px;
+        }
+        .four_part_footer{
+            display: none;
+        }
+        
     #believe {
         position: relative;
     }
@@ -644,56 +803,3 @@ justify-content: space-around;
     }
 }
 
-/* slid show Curser */
-
-#slide_show{
-    width: 100%;
-    height: 500px;
-    margin-top: 100px;
-    background-color: #fffDF7;
-    grid-area: text;
-} 
-#cursor_slide{
-    display: grid;
-    grid-template-areas: 'prevbtn text nextbtn';
-}
-#previous , #next {
-    cursor: pointer;
-    margin-top: 60%;
-    width: auto;
-    padding: 16px; 
-    font-weight: bold;
-    font-size: 20px; 
-    user-select: none;
-    color: #0D6EFD;
-    -webkit-user-select: none; 
-    }
-    #previous{
-        grid-area: prevbtn;
-        margin-left: 90%;
-} 
-    #next{
-        grid-area: nextbtn;
-}
-    .what_other_say_text{
-        font-size: 48px;
-        text-align: center;
-        padding-top: 30px;
-}
-    #data_slideShow{
-        width:90%;
-        height:300px;
-        margin:auto;
-        text-align: center;
-        display: grid;
-        grid-gap: 30px;
-        grid-template-areas: 'first second three';
-}
-    .text1{grid-area:first;}
-    .text2{grid-area:second;}
-    .text3{grid-area:three;}
-
-    #data_slideShow div {
-    width: 300px;
-
-}
