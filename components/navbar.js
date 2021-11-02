@@ -1,14 +1,12 @@
 function navbar() {
     return `<div id="navbar-logo">
-<<<<<<< HEAD
+
     <a href="./index.html"><img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg" alt="" class="logo-img">
     </a>
-=======
-    <a href = "index.html">
-    <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg" alt="" class="logo-img">
-    </a>
+
+  
     
->>>>>>> 433ccc7209b9a647fb8fec0d069d24944721520d
+
 </div>
 
 <ul id="navbar-menu">
