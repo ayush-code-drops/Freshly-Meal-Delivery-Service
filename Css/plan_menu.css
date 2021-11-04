@@ -112,7 +112,7 @@ margin-left: 10px;
 #api_food{
     width: 100%;
     margin: auto;
-    height: 1600px;
+    height: 4700px;
 }
 .menu_category_text{
     margin-left: 40%;
@@ -121,6 +121,10 @@ margin-left: 10px;
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin-left: 30px;
+}
+.image_food{
+    width: 300px;
+    height: 300px;
 }
 /* Accordian Css */
 #accordion{
@@ -211,4 +215,96 @@ margin-left: 10px;
     width: 200px;
     list-style-type: none;
 }
+@media screen  and (max-width:900px){
+
+    #choose_plan{
+        width: 100%;
+        height: 460px;
+    }
+    #choose_btn_price{
+        display: none;
+    }
+    .img_meal_box{
+        width: 100px;
+        height: 100px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    #choose_plan h4{
+        margin-top: 70px;
+    }
+    .choose_plan_price{
+        display: grid;
+        grid-template-areas: 'meal4 meal6'
+                              'meal8 meal10'
+                              'meal12 meal12';
+    }
+    .meal_price{
+        width: 90%;
+        height: 120px;
+        display: grid;
+        margin-top: 20px;
+        grid-gap: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        grid-template-areas: 'food1 price4 arrow';
+    }
+    .meal_price4{ grid-area: price4;}
+    .img_food1{ grid-area: food1;}
+    .fas{
+      grid-area: arrow;
+      padding-top: 20px;
+      display: block;
+  } 
+    .meals_4{grid-area: meal4;  }
+    .meals_6{grid-area: meal6;}
+    .meals_8{grid-area: meal8;}
+    .meals_10{grid-area: meal10;}
+    .meals_12{grid-area: meal12;}
+    .img_food_choose{
+      width: 70%;
+      height: 120px;
+  }
+  .meal_text_h1{
+      display: none;
+  }
+  .meal_price div h5{
+      display: none;
+  }
+  .meal_text_800{
+      display: block;
+  }
+  #api_food{
+    height: 3350px;
+}
+ .image_food{
+     width: 150px;
+     height: 150px;
+ }
+ #container div h2{
+     font-size: 17px;
+ }
+ #container div h4 {
+     font-size: 15px;
+ }
+  #accordion .contentBx{
+      width: 650px;
+  }
+ 
+  .line_hr{
+      width: 700px;
+  }  
+  #accordion .contentBx.active .content{
+      height: 240px;
+      padding: 10px;
+  }  
+  #footer{
+      width: 600px;
+  }
+  .footer_part ul{
+      width: 100px;
+  }
+}
+
+
    
