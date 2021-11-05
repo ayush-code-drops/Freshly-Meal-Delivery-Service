@@ -1,16 +1,18 @@
-import {Navbar} from"../components/navbar.js"
-import footer from"../components/footer.js"
+import { navbar } from "../components/navbar.js";
+import Footer from "../components/footer.js";
+
 
 const navbarElement = document.getElementById('navbar');
-navbarElement.innerHTML = Navbar();
 
-const footerElement = document.getElementById('footer');
-footerElement.innerHTML = footer();
+navbarElement.innerHTML=navbar()
 
-// const accordion =document.getElementsByClassName('contentBx');
+const footers = Footer();
+const container = document.getElementById('footer');
+container.innerHTML = footers;
+const accordion =document.getElementsByClassName('contentBx');
 
-// for(let i=0;i<accordion.length;i++){
-//     accordion[i].addEventListener('click',function(){
-//         this.classList.toggle('active');
-//     })
-// }
+for(let i=0;i<accordion.length;i++){
+    accordion[i].addEventListener('click',function(){
+        this.classList.toggle('active');
+    })
+}
