@@ -1,9 +1,8 @@
 function navbar() {
     return `<div id="navbar-logo">
-    <a href = "index.html">
-    <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg" alt="" class="logo-img">
+
+    <a href="./index.html"><img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg" alt="" class="logo-img">
     </a>
-    
 </div>
 
 <ul id="navbar-menu">
@@ -28,10 +27,17 @@ function navbar() {
 </ul>
 <div id="navbar-sec3">
     <a href="" class="nav-links">Login</a>
-    <button class="btn btn-primary btn-md"><a href="sign.html">Sign Up</a></button>
+    <button class="btn btn-primary btn-md"><a href="sign.html" class="text-light">Sign Up</a></button>
 </div>
 
-<div id="main"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXIh2umai0wzDLthQ4FinJUHLYXGV60Yr-tg&usqp=CAU" class="hamber img_hamber" id="hambers"/>
+
+`
+}
+
+export default navbar
+
+// Hamburger code Prajwal
+{/* <div id="main"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXIh2umai0wzDLthQ4FinJUHLYXGV60Yr-tg&usqp=CAU" class="hamber img_hamber" id="hambers"/>
 </div>
 <div id="hamber_page">
 <div class="hamber_div">
@@ -52,8 +58,4 @@ function navbar() {
     </ul>
    </div>
 </div>
-</div>
-`
-}
-
-export default navbar
+</div> */}

@@ -1,7 +1,7 @@
-*{
+/* {
     margin: 0;
     padding: 0; 
-    /* font-family: 'Poppins', sans-serif; */
+     font-family: 'Poppins', sans-serif;
 
 }
 #meal-cont{
@@ -18,7 +18,7 @@
     height: 700px;
     overflow-y: scroll;
     padding: 15px;
-/* background-color: blue; */
+ background-color: blue;
 }
 
 #meal-cart{
@@ -76,6 +76,136 @@ header{
 #headsort{
     color: blue;
 }
+
+
+
+
+
+ */
+ *{
+    margin: 0;
+    padding: 0; 
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+#meal-cont{
+    display: grid;
+    grid-template-columns: 73% 24%;
+}
+
+#meal-sec1{
+   padding: 10px; 
+}
+
+#scroll-menu{
+    
+    height: 1700px;
+    overflow-y: scroll;
+    padding: 15px;
+/* background-color: blue; */
+}
+
+#meal-cart{
+     height:1300px;
+    /* background-color: red; */
+    position: sticky;
+    top: 0;
+    
+}
+#meal-nav i{
+    color: blue;
+     font-size: 27px;
+     
+}
+
+
+#meal-nav{
+    display: flex;
+    justify-content: space-between;
+   
+}
+#meal-nav a{
+    text-decoration: underline;
+    color: blue;
+    font-size: 22px;
+margin-left: 5px;
+
+}
+
+#mealnav-1, #mealnav-3{
+    display: flex;
+align-items: center;
+}
+
+select{
+    width: 200px;
+    
+    height: 40px;
+    border: none;
+    font-size: 21px;
+    font-weight: 800px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#head-nav2{
+    display: flex;
+    justify-content: space-between;
+    background-color:#FFFDF7;
+    padding: 20px 10px;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    
+}
+#headsort{
+    color: blue;
+   
+}
+
+.food-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.specs-btn{
+    background-color: blue;
+    color: white;
+   
+    border: none;
+height: 40px;
+width: 72px;
+}
+
+.specs-col{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#cart-div{
+    display: grid;
+    grid-template-columns: 23% 55% 21%;
+    gap: 20px;
+    margin-left: 10px;
+}
+
+#cart-h5{
+    margin-left: 40px;
+}
+
+#meal-cart a{
+   position: absolute;
+   right: 10px;
+}
+
+#clearAllDiv{
+    margin-bottom: 30px;
+}
+
 
 
 
