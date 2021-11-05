@@ -1,5 +1,5 @@
 import navbar from "./components/navbar.js";
-import Footer from "./components/footer.js"
+import Footer from "./components/footer.js";
 
 const navbarElement = document.getElementById('navbar');
 navbarElement.innerHTML = navbar()
