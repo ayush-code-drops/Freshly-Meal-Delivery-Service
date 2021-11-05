@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Freshly |Meal Delivery Serivce</title>
-        
+
     <!-- -------Icon in Title------ -->
-    <link rel = "icon" href = 
-"https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg" 
-        type = "image/x-icon">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon"
+        href="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <!-- ------Linking Css------- -->
-        <link rel="stylesheet" href="Css/style.css">
+    <!-- ------Linking Css------- -->
+    <link rel="stylesheet" href="Css/style.css">
 
-        <!-----Linking Bootstrap Css & Js------>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-       
+    <!-----Linking Bootstrap Css & Js------>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-        <!-- -----Google Fonts------- -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800;400&display=swap" rel="stylesheet">
+
+    <!-- -----Google Fonts------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -125,28 +127,137 @@
                 <h5>per week</h5>
                 <h3>$9.29 / meal</h3>
                 <button id="choose_btn_price" onclick="sign()">Choose</button>
-            </div>
-            <div class="meals_12 meal_price">
-                <h1 class="meal_text_h1" onclick="sign()">12 Meals</h1>
-                <h5>per week</h5>
-                <h3>$8.99 / meal</h3>
-                <button id="choose_btn_price" onclick="sign()">Choose</button>
-            </div>
+    <nav id="navbar">
+    </nav>
+
+    <!-- ------Section-1-------- -->
+    <section class="p1-section" id="p1-section-1">
+        <div id="p1sec1-sec1">
+            <h1 id="p1sec1-h1">
+                Chef cooked, healthy meals delivered to you.
+            </h1>
+            <h4>See meals available in your area!</h4>
+            <form action="" id="p1sec1-form">
+                <label for="Email Address" class="d-block">Email Address</label>
+                <input type="email" class="d-block" placeholder="freshly@freshly.com">
+                <label for="ZIP Code" class="d-block">ZIP Code</label>
+                <input type="number" placeholder="1111">
+                <input type="submit" class="btn btn-primary btn-md" value="Explore Meals" id="explore_meal">
+            </form>
+
+            <p>By continuing, you agree to our <a href="">Terms</a> and <a href="">Privacy Policy</a> & will receive
+                emails from Freshly.</p>
         </div>
-      <h2>Shipping Added At Checkout</h2>
-     </div>
-</section>
-<!-- slide Show Cursor -->
-  <section id="slide_show">
-    <h1 class="what_other_say_text">What Others Are Saying</h1>
-    <div id="cursor_slide">
-        <i class="fa fa-angle-left" id="previous" style="font-size:36px"></i>
-        <div id="data_slideShow">
+        <div id="p1sec1-sec2">
 
         </div>
-        <i class="fa fa-angle-right" id="next" style="font-size:36px"></i>
+    </section>
+    <!-- gif -->
+    <section id="gif">
+        <h1 class="what_other_say_text">How it works</h1>
+        <div>
+            <img src="https://cdn.dribbble.com/users/3357896/screenshots/7451146/media/8b3449c854ac5d310f950cc5c07f01b7.gif"
+                class="gif_img" />
+            <img src="https://cdn.dribbble.com/users/3357896/screenshots/7451146/media/fac875f3c5558c57375a7de67d44066b.gif"
+                alt="Trulli" class="gif_img" />
+            <img src="https://cdn.dribbble.com/users/3357896/screenshots/7451146/heat-em-up.gif" class="gif_img" />
+            <img src="https://cdn.dribbble.com/users/3357896/screenshots/7451146/media/5ff5d81824f0b52c93719d1f58e40d22.gif"
+                class="gif_img" />
+        </div>
+    </section>
+    <div id="tomoto_box">
+        <div class="menu_detalis">
+            <h1>On the menu</h1>
+            <h3>Each Freshly meal is perfectly sized for 1 person to enjoy at 1 sitting. Our fully-prepared meals are
+                delivered fresh, and ready to eat in 3 minutes.</h3>
+            <div id="menu_detalis_img">
+                <div class="items_menu1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtpCWctONFtl8XzZRKNosirkqRTgW4e69Nlg&usqp=CAU"
+                        class="img_page_menu" />
+                    <h3>Steak Peppercorn</h3>
+                </div>
+                <div class="items_menu2">
+                    <img src="https://recipes.net/wp-content/uploads/2020/10/Homestyle-Chicken-and-French-Fries_recipes-scaled.jpg"
+                        class="img_page_menu" />
+                    <h3>Homestyle Chicken</h3>
+                </div>
+                <div class="items_menu3">
+                    <img src="https://res.cloudinary.com/freshly/image/upload/c_fill,f_auto,h_683,w_1024/v1625862402/production-meal-image-2d69b7cf-1233-428f-a8b4-bc9f77559500.jpg"
+                        class="img_page_menu" />
+                    <h3>Cauliflower shell Beef Bolognese</h3>
+                </div>
+                <div class="items_menu4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9GEHfJPFPOitfVhZyWbk8QdzfVZwz2OXJXA&usqp=CAU"
+                        class="img_page_menu" />
+                    <h3>Sausage Baked Penne</h3>
+                </div>
+                <div class="items_menu5">
+                    <img src="https://www.indiewire.com/wp-content/uploads/2021/09/Fresh-N-Lean-Savory-Sweet-Chicken-Teriyaki-Bowl.jpeg?w=780"
+                        class="img_page_menu" />
+                    <h3>Savory-Sweet Chicken Teriyaki Bowl</h3>
+                </div>
+                <div class="items_menu6">
+                    <img src="https://res.cloudinary.com/freshly/image/upload/c_fill,f_auto,h_683,w_1024/v1607770959/production-meal-image-7a62bb89-9bcb-4f1f-9f0f-d8372698d48e.jpg"
+                        class="img_page_menu" />
+                    <h3>Protein-Packed Chicken Parm</h3>
+                </div>
+
+            </div>
+            <div class="view_plan_menu" id="view_plan">View Plans & Menu</div>
+        </div>
     </div>
-  </section>
+
+    <section>
+        <div id="choose_plan">
+            <h1>Plans that work for you</h1>
+            <h2>Choose from 4, 6, 8, 10, or 12 meals per week. You can change up your number of meals with every order
+                if you’d like.</h2>
+            <div class="choose_plan_price">
+                <div class="meals_4 meal_price">
+                    <h1 class="meal_text_h1">4 Meals</h1>
+                    <h5>per week</h5>
+                    <h3>$11.79 / meal</h3>
+                    <button id="choose_btn_price" onclick="sign()">Choose</button>
+                </div>
+                <div class="meals_6 meal_price">
+                    <h1 class="meal_text_h1">6 Meals</h1>
+                    <h5>per week</h5>
+                    <h3>$9.99 / meal</h3>
+                    <button id="choose_btn_price" onclick="sign()">Choose</button>
+                </div>
+                <div class="meals_8 meal_price">
+                    <h1 class="meal_text_h1" onclick="sign()">8 Meals</h1>
+                    <h5>per week</h5>
+                    <h3>$9.49 / meal</h3>
+                    <button id="choose_btn_price" onclick="sign()">Choose</button>
+                </div>
+                <div class="meals_10 meal_price">
+                    <h1 class="meal_text_h1" onclick="sign()">10 Meals</h1>
+                    <h5>per week</h5>
+                    <h3>$9.29 / meal</h3>
+                    <button id="choose_btn_price" onclick="sign()">Choose</button>
+                </div>
+                <div class="meals_12 meal_price">
+                    <h1 class="meal_text_h1" onclick="sign()">12 Meals</h1>
+                    <h5>per week</h5>
+                    <h3>$8.99 / meal</h3>
+                    <button id="choose_btn_price" onclick="sign()">Choose</button>
+                </div>
+            </div>
+            <h2>Shipping Added At Checkout</h2>
+        </div>
+    </section>
+    <!-- slide Show Cursor -->
+    <section id="slide_show">
+        <h1 class="what_other_say_text">What Others Are Saying</h1>
+        <div id="cursor_slide">
+            <i class="fa fa-angle-left" id="previous" style="font-size:36px"></i>
+            <div id="data_slideShow">
+
+            </div>
+            <i class="fa fa-angle-right" id="next" style="font-size:36px"></i>
+        </div>
+    </section>
 
 
 
@@ -154,200 +265,207 @@
 
 <!-- section 6 and 7 -->
 
+    <!-- section 6 and 7 -->
 
-<section id="p1-sec6_7">
-    <div id="believe">
-        <div>
-            <h1>We believe eating right should be easy for everyone.</h1>
-            <p>Each Freshly meal is perfectly sized for 1 person to enjoy at 1 sitting. Our fully-prepared meals are delivered fresh, and ready to eat in 3 minutes.</p>
-            <button id="learnMore" ><a href="whyFreshly.html">Learn More</a></button>
-        </div>
-        <div></div>
-    </div>
 
-    <div id="weekly">
-        <div></div>
-        <div>
-            <h1>Healthy Meals Delivered Weekly</h1>
+    <section id="p1-sec6_7">
+        <div id="believe">
             <div>
-                <input type="email" placeholder="freshly@freshly.com" id="email">
-                <input type="tel" placeholder="zip" id="zip">
-                <button id="getStarted"><a href="chooseplan.html">Get Started!</a></button>
+                <h1>We believe eating right should be easy for everyone.</h1>
+                <p>Each Freshly meal is perfectly sized for 1 person to enjoy at 1 sitting. Our fully-prepared meals are
+                    delivered fresh, and ready to eat in 3 minutes.</p>
+                <button id="learnMore"><a href="whyFreshly.html">Learn More</a></button>
             </div>
-            <p>Already have an account? <a >Log in</a></p>
-            <p>By continuing, you agree to our <a href="...">Terms</a> and <a href="...">Privacy Policy.</a> & will receive emails from Freshly.</p>
+            <div></div>
         </div>
-    </div>
-</section>
 
-<<<<<<< HEAD
+        <div id="weekly">
+            <div></div>
+            <div>
+                <h1>Healthy Meals Delivered Weekly</h1>
+                <div>
+                    <input type="email" placeholder="freshly@freshly.com" id="email">
+                    <input type="tel" placeholder="zip" id="zip">
+                    <button id="getStarted"><a href="chooseplan.html">Get Started!</a></button>
+                </div>
+                <p>Already have an account? <a>Log in</a></p>
+                <p>By continuing, you agree to our <a href="...">Terms</a> and <a href="...">Privacy Policy.</a> & will
+                    receive emails from Freshly.</p>
+            </div>
+        </div>
+    </section>
 
-=======
+
     <hr style="margin-top: -3px;">
 
     <div id="footer"></div>
 
-    <script src="script.js" type="module"></script>
+
 
     <!-- ------Bootstrap Js------ -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-        </script>
+        </script> -->
 </body>
-   <div id="footer"></div>
+<!-- <div id="footer"></div> -->
 <script src="script.js" type="module"></script>
-   <script>
-       // sign 
-       function sign(){
-      location.replace("sign.html");
-       }
-       
-       const view_plan = document.getElementById('view_plan');
-       view_plan.addEventListener('click',explore);
+<script>
+    // sign 
+    function sign() {
+        location.replace("sign.html");
+    }
+
+    const view_plan = document.getElementById('view_plan');
+    view_plan.addEventListener('click', explore);
     //    const explore_meal = document.getElementById("explore_meal");
     //    explore_meal.addEventListener('click',explore);
 
-       function explore(){
-           location.replace('plan_menu.html');
-       }
-         const nextbtn = document.getElementById("next");
-           nextbtn.addEventListener("click",next_slide);
+    function explore() {
+        location.replace('plan_menu.html');
+    }
+    const nextbtn = document.getElementById("next");
+    nextbtn.addEventListener("click", next_slide);
 
-           const previousbtn = document.getElementById("previous");
-           previousbtn.addEventListener("click",previous_slide);
+    const previousbtn = document.getElementById("previous");
+    previousbtn.addEventListener("click", previous_slide);
 
-           const data = document.getElementById("data_slideShow");
-           slide1();
-           
-           function slide1(){
-            const div1 = document.createElement('div');
-           const div2 = document.createElement('div');
-           const div3 = document.createElement('div');
-           div1.className="text1";
-           div2.className="text2";
-           div3.className="text3";
+    const data = document.getElementById("data_slideShow");
+    slide1();
 
-           const img1 = document.createElement('img');
-           img1.src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
-           img1.style.width="200px";
-           img1.style.height="100px";
+    function slide1() {
+        const div1 = document.createElement('div');
+        const div2 = document.createElement('div');
+        const div3 = document.createElement('div');
+        div1.className = "text1";
+        div2.className = "text2";
+        div3.className = "text3";
 
-           const h1 = document.createElement('h3');
-           h1.innerHTML="Freshly has changed our lives!";
-           const p1 = document.createElement('p');
-           p1.innerHTML = " With Freshly, we don’t have to go anywhere or wait for delivery, and our monthly food bill has been cut nearly in half. We love it."
-           const name1 = document.createElement('h4');
-           name1.innerHTML = "Dave";
-           div1.append(img1,h1,p1,name1);
+        const img1 = document.createElement('img');
+        img1.src = "https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
+        img1.style.width = "200px";
+        img1.style.height = "100px";
 
-           const img2 = document.createElement('img');
-           img2.src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
-           img2.style.width="200px";
-           img2.style.height="100px";
+        const h1 = document.createElement('h3');
+        h1.innerHTML = "Freshly has changed our lives!";
+        const p1 = document.createElement('p');
+        p1.innerHTML = " With Freshly, we don’t have to go anywhere or wait for delivery, and our monthly food bill has been cut nearly in half. We love it."
+        const name1 = document.createElement('h4');
+        name1.innerHTML = "Dave";
+        div1.append(img1, h1, p1, name1);
 
-           const h2 = document.createElement('h2');
-           h2.innerHTML="10 stars! Awesome! Love it! ";
-           const p2 = document.createElement('p');
-           p2.innerHTML = " We love Freshly because it takes two minutes to prepare, the food is great and we don’t have to spend time cleaning up."
-           const name2 = document.createElement('h4');
-           name2.innerHTML = "Sheri";
-           div2.append(img2,h2,p2,name2);
-          
+        const img2 = document.createElement('img');
+        img2.src = "https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
+        img2.style.width = "200px";
+        img2.style.height = "100px";
 
-           const img3 = document.createElement('img');
-           img3.src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
-           img3.style.width="200px";
-           img3.style.height="100px";
+        const h2 = document.createElement('h2');
+        h2.innerHTML = "10 stars! Awesome! Love it! ";
+        const p2 = document.createElement('p');
+        p2.innerHTML = " We love Freshly because it takes two minutes to prepare, the food is great and we don’t have to spend time cleaning up."
+        const name2 = document.createElement('h4');
+        name2.innerHTML = "Sheri";
+        div2.append(img2, h2, p2, name2);
 
-           const h3 = document.createElement('h2');
-           h3.innerHTML="One of the easiest decisions I've made ";
-           const p3 = document.createElement('p');
-           p3.innerHTML = "With Freshly, I don’t have to think about what I’m going to eat for lunch each day and feel good knowing that I’m eating a healthy meal. I love the convenience!"
-           const name3 = document.createElement('h4');
-           name3.innerHTML = "Cindi";
-           div3.append(img3,h3,p3,name3);
 
-           data.append(div1,div2,div3);
-           }
+        const img3 = document.createElement('img');
+        img3.src = "https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
+        img3.style.width = "200px";
+        img3.style.height = "100px";
 
-           
-           function slide2(){
-            const div1 = document.createElement('div');
-           const div2 = document.createElement('div');
-           const div3 = document.createElement('div');
-           div1.className="text1";
-           div2.className="text2";
-           div3.className="text3";
+        const h3 = document.createElement('h2');
+        h3.innerHTML = "One of the easiest decisions I've made ";
+        const p3 = document.createElement('p');
+        p3.innerHTML = "With Freshly, I don’t have to think about what I’m going to eat for lunch each day and feel good knowing that I’m eating a healthy meal. I love the convenience!"
+        const name3 = document.createElement('h4');
+        name3.innerHTML = "Cindi";
+        div3.append(img3, h3, p3, name3);
 
-           const img1 = document.createElement('img');
-           img1.src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
-           img1.style.width="200px";
-           img1.style.height="100px";
+        data.append(div1, div2, div3);
+    }
 
-           const h1 = document.createElement('h3');
-           h1.innerHTML="Amazingly delicious and convenient!";
-           const p1 = document.createElement('p');
-           p1.innerHTML = "I love that I have found freshly and that it allows me to try new things and allows me to eat healthy while remaining affordable!"
-           const name1 = document.createElement('h4');
-           name1.innerHTML = "Jessica Wilson";
-           div1.append(img1,h1,p1,name1);
 
-           const img2 = document.createElement('img');
-           img2.src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
-           img2.style.width="200px";
-           img2.style.height="100px";
+    function slide2() {
+        const div1 = document.createElement('div');
+        const div2 = document.createElement('div');
+        const div3 = document.createElement('div');
+        div1.className = "text1";
+        div2.className = "text2";
+        div3.className = "text3";
 
-           const h2 = document.createElement('h2');
-           h2.innerHTML="Convenience, taste, variety";
-           const p2 = document.createElement('p');
-           p2.innerHTML = "Been a customer for more than a year now, and love it. Customer service is particularly outstanding — whenever there’s been a problem, Freshly staff respond quickly and always rectify the problem."
-           const name2 = document.createElement('h4');
-           name2.innerHTML = "Jeffrey";
-           div2.append(img2,h2,p2,name2);
-          
+        const img1 = document.createElement('img');
+        img1.src = "https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
+        img1.style.width = "200px";
+        img1.style.height = "100px";
 
-           const img3 = document.createElement('img');
-           img3.src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
-           img3.style.width="200px";
-           img3.style.height="100px";
+        const h1 = document.createElement('h3');
+        h1.innerHTML = "Amazingly delicious and convenient!";
+        const p1 = document.createElement('p');
+        p1.innerHTML = "I love that I have found freshly and that it allows me to try new things and allows me to eat healthy while remaining affordable!"
+        const name1 = document.createElement('h4');
+        name1.innerHTML = "Jessica Wilson";
+        div1.append(img1, h1, p1, name1);
 
-           const h3 = document.createElement('h2');
-           h3.innerHTML="Delicious! So yummy!";
-           const p3 = document.createElement('p');
-           p3.innerHTML = "The convenience of a well prepared, healthy, flavorful meal with no shopping, preparing, or clean up is simply amazing. Looking forward to the rest of the week.";
-           const name3 = document.createElement('h4');
-           name3.innerHTML = "Kristie Geiges";
-           div3.append(img3,h3,p3,name3);
+        const img2 = document.createElement('img');
+        img2.src = "https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
+        img2.style.width = "200px";
+        img2.style.height = "100px";
 
-           data.append(div1,div2,div3);
-           }
+        const h2 = document.createElement('h2');
+        h2.innerHTML = "Convenience, taste, variety";
+        const p2 = document.createElement('p');
+        p2.innerHTML = "Been a customer for more than a year now, and love it. Customer service is particularly outstanding — whenever there’s been a problem, Freshly staff respond quickly and always rectify the problem."
+        const name2 = document.createElement('h4');
+        name2.innerHTML = "Jeffrey";
+        div2.append(img2, h2, p2, name2);
 
-        let count = 1;
-        function next_slide(){
-            data.innerHTML="";
-            if(count % 2 != 0){
-                count++;
-                slide2();
-            }
-            else {
-                count++;
-                slide1();
-            }
+
+        const img3 = document.createElement('img');
+        img3.src = "https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg";
+        img3.style.width = "200px";
+        img3.style.height = "100px";
+
+        const h3 = document.createElement('h2');
+        h3.innerHTML = "Delicious! So yummy!";
+        const p3 = document.createElement('p');
+        p3.innerHTML = "The convenience of a well prepared, healthy, flavorful meal with no shopping, preparing, or clean up is simply amazing. Looking forward to the rest of the week.";
+        const name3 = document.createElement('h4');
+        name3.innerHTML = "Kristie Geiges";
+        div3.append(img3, h3, p3, name3);
+
+        data.append(div1, div2, div3);
+    }
+
+    let count = 1;
+    function next_slide() {
+        data.innerHTML = "";
+        if (count % 2 != 0) {
+            count++;
+            slide2();
         }
-
-        function previous_slide(){
-            data.innerHTML="";
-            if(count % 2 == 0){
-                count++;
-                slide2();
-            }
-            else {
-                count++;
-                slide1();
-            }
+        else {
+            count++;
+            slide1();
         }
-   </script>
+    }
+
+    function previous_slide() {
+        data.innerHTML = "";
+        if (count % 2 == 0) {
+            count++;
+            slide2();
+        }
+        else {
+            count++;
+            slide1();
+        }
+    }
+</script>
 <!-- ------Bootstrap Js------ -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+<script src="script.js" type="module"></script>
+
 </html>
