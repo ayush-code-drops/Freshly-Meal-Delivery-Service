@@ -1,4 +1,4 @@
-import Navbar from "./components/nav1.js";
+import Navbar from "../components/nav1.js";
 
 
 const navbar = Navbar();
