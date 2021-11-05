@@ -13,7 +13,7 @@ export function navbar() {
     <a href="whyFreshly.html" class="nav-links">How It Works</a>
 </li> 
 <li class="nav-list-items">
-    <a href="" class="nav-links">Gifts</a>
+    <a href="gift.html" class="nav-links">Gifts</a>
 </li> 
 <li class="nav-list-items">
     <a href="refer.html" class="nav-links">Refer a Friend</a>

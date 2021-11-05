@@ -39,3 +39,7 @@ function createCard() {
 
 
 createCard()
+
+function nextpage(){
+    
+}
