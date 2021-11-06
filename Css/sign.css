@@ -6,21 +6,25 @@ body {
 #sign_box {
     width: 100%;
     height: 500px;
-    background-image: url("https://res.cloudinary.com/freshly/image/upload/c_crop,g_auto,dpr_auto,q_30,w_1500,h_900/v1494958610/joinnow-southchicken.jpg");
     padding-top: 100px;
+    background-image: url("https://res.cloudinary.com/freshly/image/upload/c_crop,g_auto,dpr_auto,q_30,w_1500,h_900/v1494958610/joinnow-southchicken.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .sign_page {
-    width: 50%;
-    height: 430px;
     margin: auto;
-    background-color: #ffffff80;
+    padding: 0 40px 10px;
+    background-color: rgb(255, 253, 252, 0.78);
     box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.2);
 }
 
 .sign_page h1 {
-    width: 80%;
     margin: auto;
+}
+
+.sign_page > h1:nth-child(2) {
+    font-size: 30px;
 }
 
 .dinner_ready_text {
@@ -31,35 +35,37 @@ body {
 
 #email_sign {
     margin-top: 50px;
-    margin-left: 70px;
-    width: 300px;
+    width: 45%;
     height: 50px;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 20px;
     border: 1px solid black;
+    padding-left: 15px;
 }
 
 #zip_sign {
-    width: 100px;
-    padding-top: 10px;
-    margin-left: 10px;
+    width: 20%;
+    margin-left: 15px;
     margin-right: 10px;
-    height: 40px;
+    height: 50px;
     border-radius: 5px;
     border: 1px solid black;
+    font-size: 20px;
+    padding-left: 15px;
 }
 
 #continue_sign {
-    width: 140px;
-    height: 50px;
-    padding-top: 10px;
+    width: 20%;
+    height: 55px;
+    /* padding-top: 10px; */
     background-color: #3167ff;
     color: white;
     border: none;
+    font-size: 20px;
 }
 
 .sign_page h5 {
-    margin-left: 70px;
+    font-size: 13px;
 }
 
 #accordion {
@@ -76,6 +82,15 @@ body {
     position: relative;
     padding: 10px;
     cursor: pointer;
+}
+
+.label {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.label:hover {
+    color: #2A6DFF;
 }
 
 #accordion .contentBx .label::before {
@@ -96,7 +111,7 @@ body {
     overflow-y: auto;
 }
 
-#accordion .contentBx.active .content {
+#accordion .contentBx .active .content {
     height: 170px;
     padding: 10px;
 }
@@ -150,4 +165,59 @@ body {
     border-radius: 50%;
     width: 20px;
     height: 20px;
+}
+
+#input {
+    margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width:600px) {
+    .sign_page {
+        width: 95%;
+        padding: 0 10px 10px;
+    }
+
+    .contentBx {
+        width: 100%;
+    }
+
+    #email_sign {
+        width: 96%;
+        margin-bottom: 20px;
+    }
+
+    #zip_sign {
+        width: 96%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    #continue_sign {
+        width: 100%;
+    }
+
+    #sign_box {
+        height: 625px;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .sign_page {
+        width: 80%;
+    }
+
+    .contentBx {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .sign_page {
+        width: 50%;
+    }
+
+    .contentBx {
+        width: 80%;
+    }
 }

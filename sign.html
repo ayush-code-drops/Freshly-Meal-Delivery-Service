@@ -11,15 +11,17 @@
 </head>
 
 <body>
-    <div id="nav">
-    </div>
+    <div id="nav"></div>
+
     <div id="sign_box">
         <div class="sign_page">
             <h1 class="dinner_ready_text">Dinner’s ready!</h1>
             <h1>Chef-prepared, healthy meals delivered weekly</h1>
-            <input type="email" placeholder="Email" id="email_sign" />
-            <input type="number" placeholder="Zip" id="zip_sign" />
-            <button id="continue_sign">Continue</button>
+            <div id="input">
+                <input type="email" placeholder="Email" id="email_sign" />
+                <input type="number" placeholder="Zip" id="zip_sign" />
+                <button id="continue_sign">Continue</button>
+            </div>
             <span id="text"></span>
             <span id="text_zip"></span>
             <h5>Already have an account? <a href="#">Log in</a></h5>
@@ -45,7 +47,9 @@
                 </p>
             </div>
         </div>
-        <hr class="line_hr" />
+
+        <hr class="line_hr"/>
+
         <div class="contentBx">
             <div class="label">Do you accommodate dietary preferences?</div>
             <div class="content">
@@ -57,7 +61,9 @@
                     as we’re always adding new and exciting dishes.</p>
             </div>
         </div>
-        <hr class="line_hr" />
+
+        <hr class="line_hr"/>
+
         <div class="contentBx">
             <div class="label">How long do the meals last?</div>
             <div class="content">
@@ -70,7 +76,9 @@
                     and add a few extra minutes to reach the 165° F internal temperature we recommend.</p>
             </div>
         </div>
-        <hr class="line_hr" />
+
+        <hr class="line_hr"/>
+
         <div class="contentBx">
             <div class="label">How do I heat up my meals?</div>
             <div class="content">
@@ -84,7 +92,9 @@
                     FAQ.</p>
             </div>
         </div>
-        <hr class="line_hr" />
+
+        <hr class="line_hr"/>
+
         <div class="contentBx">
             <div class="label">How does shipping work?</div>
             <div class="content">
@@ -96,7 +106,9 @@
                     best for you.</p>
             </div>
         </div>
-        <hr class="line_hr" />
+
+        <hr class="line_hr"/>
+
         <div class="contentBx">
             <div class="label">How does the subscription work?</div>
             <div class="content">
@@ -109,8 +121,17 @@
         </div>
     </div>
 
-    <script src="javascript/sign.js"></script>
-    
+    <script src="javascript/sign.js" type="module"></script>
+    <script>
+     const accordion =document.getElementsByClassName('contentBx');
+
+for(let i=0;i<accordion.length;i++){
+    accordion[i].addEventListener('click',function(){
+        this.classList.toggle('active');
+    })
+}
+    </script>
+
 </body>
 
 </html>

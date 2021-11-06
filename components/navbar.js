@@ -19,14 +19,14 @@ export function navbar() {
     <a href="refer.html" class="nav-links">Refer a Friend</a>
 </li> 
 <li class="nav-list-items">
-    <a href="" class="nav-links">Help</a>
+    <a href="help.html" class="nav-links">Help</a>
 </li> 
    
 
 
 </ul>
 <div id="navbar-sec3">
-    <a href="" class="nav-links">Login</a>
+    <a href="log.html" class="nav-links">Login</a>
     <button class="btn btn-primary btn-md"><a href="sign.html" class="text-light">Sign Up</a></button>
 </div>
 

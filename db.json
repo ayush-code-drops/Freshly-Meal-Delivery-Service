@@ -378,6 +378,7 @@
       "id": 3
     },
     {
+<<<<<<< HEAD
       "mail": "ajkdsksf@gmail.com",
       "zip": "11111",
       "id": 4
@@ -396,6 +397,21 @@
       "mail": "ayushmangal23345@gmail.com",
       "zip": "11111",
       "id": 7
+=======
+      "mail": "aaa@aaa.com",
+      "zip": "00000",
+      "id": 4
+    },
+    {
+      "mail": "prajwalgoyal1999@gmail.com",
+      "zip": "47401",
+      "id": 5
+    },
+    {
+      "mail": "prajwalgoyal1999@gmail.com",
+      "zip": "47401",
+      "id": 6
+>>>>>>> b06a1f81374fc388258453d63445ec30b263fd4f
     }
   ]
 }

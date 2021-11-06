@@ -1,9 +1,16 @@
-// import Navbar from "./components/nav1.js";
+import Navbar from "../components/nav1.js";
 
-// const navbar = Navbar();
-// const container = document.getElementById("nav");
-// container.innerHTML = navbar;
+const navbar = Navbar();
+const container = document.getElementById("nav");
+container.innerHTML = navbar;
 
+const accordion =document.getElementsByClassName('contentBx');
+
+for(let i=0;i<accordion.length;i++){
+    accordion[i].addEventListener('click',function(){
+        this.classList.toggle('active');
+    })
+}
 
 // Sending Mail and Zip to Local Host
 
