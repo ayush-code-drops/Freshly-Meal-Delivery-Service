@@ -55,6 +55,7 @@ function createFoodCard(data) {
     const h4 = document.createElement('h4');
     h4.className = 'food-card-head';
     h4.innerHTML = data.title
+    
     const p = document.createElement('p');
     p.className = "food-card-p";
     p.innerHTML=data.description
