@@ -1,8 +1,8 @@
-// import Navbar from "./components/nav1.js";
+import {Navbar} from "../components/nav1.js";
 
-// const navbar = Navbar();
-// const container = document.getElementById("nav");
-// container.innerHTML = navbar;
+
+const container = document.getElementById("nav");
+container.innerHTML = Navbar();
 
 
 // Sending Mail and Zip to Local Host
