@@ -18,4 +18,4 @@
 5. we use the heroku to fetch the data 
 6. live link #https://jovial-banach-4121a8.netlify.app/index.html
 
-[2021-10-26](https://user-images.githubusercontent.com/75352182/146010781-2220b421-adf1-4ed8-b135-897f1cf4f5a7.png)
+![2021-10-26](https://user-images.githubusercontent.com/75352182/146799145-c22caa01-0a41-4522-977a-cab5fadf14e5.png)
