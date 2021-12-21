@@ -17,7 +17,11 @@
   
   npm install -g json-server
   
-  json-server --watch db.json
+  npm run start
+  
+  ## If you clone this project in your local machine then do following Step-
+  ## git clone https://github.com/ayush-code-drops/Freshly-Meal-Delivery-Service.git
+  ## npm run start 
 
 ![2021-10-26](https://user-images.githubusercontent.com/75352182/146799145-c22caa01-0a41-4522-977a-cab5fadf14e5.png)
 
