@@ -23,7 +23,7 @@
      git clone https://github.com/ayush-code-drops/Freshly-Meal-Delivery-Service.git
      npm run start  
 
-![2021-10-26](![image](https://user-images.githubusercontent.com/81424725/161331223-e2c18526-6105-4067-ba6e-4c7395953e57.png)
+![2021-10-26](![image](blob:https://imgur.com/03eb69b9-53b0-45f6-a6ef-c2c67f59ed85)
 )
 
 ![2021-12-20 (6)](https://user-images.githubusercontent.com/75352182/146799562-c2c196e8-5919-4823-b790-8fe1f43c7234.png)
